@@ -1,0 +1,68 @@
+# Pinouts for Nexys2 Board  (Spartan3-500E)
+
+# Start I/O Pin Assignments
+NET "clk"   LOC = "b8"   ; 
+
+# Slide Switches
+NET "Bit78" 		  LOC = "g18"  ; 
+NET "ParityEn"      LOC = "h18"  ; 
+NET "ParityOE"      LOC = "k18"  ; 
+#NET "ALU_OP[3]"      LOC = "k17"  ; 
+NET "Baud_Val[0]"      LOC = "l14"  ; 
+NET "Baud_Val[1]"      LOC = "l13"  ; 
+NET "Baud_Val[2]"      LOC = "n17"  ; 
+NET "Baud_Val[3]"      LOC = "r17"  ;
+
+# Push Buttons
+#NET "inc"     LOC = "b18"  ; 
+#NET "inc"     LOC = "d18"  ; 
+#NET "din"     		 LOC = "e18"  ; 
+NET "reset"     	 LOC = "h13"  ;
+
+# LED's
+#NET "count[0]"    LOC = "j14"  ; 
+#NET "count[1]"    LOC = "j15"  ; 
+#NET "count[2]"    LOC = "k15"  ; 
+#NET "count[3]"    LOC = "k14"  ; 
+#NET "count[4]"    LOC = "e17"  ;   # e16 for 1200E 
+#NET "count[5]"    LOC = "p15"  ;   # p16 for 1200E 
+#NET "count[6]"    LOC = "f4"   ;   # e4  for 1200E 
+#NET "count[7]"    LOC = "r4"   ;   # p4  for 1200E 
+
+# 7-segment Display 
+#NET "a1"  LOC = "f17"  ;
+#NET "a2"  LOC = "h17"  ;
+#NET "a3"  LOC = "c18"  ;
+#NET "a4"  LOC = "f15"  ;
+#NET "dp"  LOC = "c17"  ;
+#NET "a"          LOC = "l18"  ;
+#NET "b"          LOC = "f18"  ;
+#NET "c"          LOC = "d17"  ;
+#NET "d"          LOC = "d16"  ;
+#NET "e"          LOC = "g14"  ;
+#NET "f"          LOC = "j17"  ;
+#NET "g"          LOC = "h14"  ;
+
+# RS-232
+NET "RxLineIn"        LOC = "u6"   ;  
+NET "TX"         		 LOC = "p9"   ; 
+# NET "txpulse"    LOC = "b18"  ; # using of btn<0>;
+
+# VGA Graphics 
+# NET "vgaRed<0>"   LOC= "R9"   ; 
+# NET "vgaRed<1>"   LOC= "T8"   ; 
+# NET "vgaRed<2>"   LOC= "R8"   ; 
+# NET "vgaGreen<0>" LOC= "N8"   ; 
+# NET "vgaGreen<1>" LOC= "P8"   ; 
+# NET "vgaGreen<2>" LOC= "P6"   ; 
+# NET "vgaBlue<1>"  LOC= "U5"   ; 
+# NET "vgaBlue<2>"  LOC= "U4"   ; 
+# NET "Hsync"       LOC= "T4"   ; 
+# NET "Vsync"       LOC= "U3"   ; 
+
+# PS2 port (clock and data)
+# NET "PS2C"        LOC= "R12"  ; 
+# NET "PS2D"        LOC= "P11"  ; 
+
+
+
